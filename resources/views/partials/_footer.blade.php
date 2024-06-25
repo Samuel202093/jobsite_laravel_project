@@ -21,7 +21,7 @@
         <div class="about sublink-wrapper">
            <h2>About Us</h2> 
            <div>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Corporis esse harum assumenda deleniti, autem nisi.</span>
+                <span>RemoteWorks is your go-to platform for remote work opportunities. <br>We believe in the power of remote work to create a balanced and productive work-life experience. <br> Our platform offers a variety of remote job listings across numerous fields. <br> Discover the freedom of remote work and find your ideal position with RemoteWorks.</span>
            </div>
            <h2>T.(00) 723 445 793</h2>
            <h2>hello@uxper.co</h2>
