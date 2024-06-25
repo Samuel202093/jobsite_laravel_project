@@ -1,0 +1,368 @@
+#no-listing-container{
+    /* border: 2px solid red; */
+    width: 300%;
+    display: flex;
+    min-height: 15vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#noListing{
+    /* text-align: center; */
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.search-container-back a{
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: antiquewhite;
+    border-radius: 30px;
+}
+
+.remote-jobs-section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.remote-jobs-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.remote-jobs-heading-container h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.remote-jobs-heading-container span{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.95rem;
+}
+
+.job-main-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin-top: 2rem;
+}
+
+.job-wrapper-link{
+    text-decoration: none;
+}
+
+.job-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    border: 1px dotted rgba(251, 217, 23, 0.95);
+    border-radius: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+}
+
+.layer-one-logo{
+    height: 35px;
+    width: 35px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.layer-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sublayer-one{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-right: 3rem;
+}
+
+.sublayer-one span{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.crown{
+    color: gold;
+}
+
+.heart{
+    color: crimson;
+}
+
+.layer-two-remote{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.location-span, .dollar-span{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+.icon-layer{
+    display: flex;
+    flex-direction: row;
+    gap: 0.95rem;
+}
+
+.layer-two{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.layer-three{
+    min-height: 6vh;
+}
+
+.layer-three span{
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: rgb(226, 239, 251); 
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+}
+
+
+.post-a-job-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.post-a-job-section::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/job-post.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.post-a-job-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    height: 40vh;
+    width: 40%;
+    z-index: 1;
+}
+
+.post-a-job-wrapper h1{
+    font-size: 2rem;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+.post-a-job-wrapper h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.post-a-job-wrapper p{
+    text-justify: center;
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+
+
+.pagination-container{
+    background-color: white;
+}
+
+
+.post-a-job-wrapper a{
+    background-color: #159F6C;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.post-a-job-wrapper button:focus{
+    outline: none;
+}
+
+/* manage-gig-section styling */
+.manage-gig-section{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.edit-link{
+    text-decoration: none;
+}
+
+.no-gigs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.no-gigs-container p{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.no-gigs-container a{
+    text-decoration: none;
+    padding: 0.45rem 0.95rem;
+    background-color: #159F6C;
+    color: antiquewhite;
+    font-size: 0.95rem;
+    border-radius: 20px;
+    /* margin-top: 1.5rem; */
+}
+
+.manage-gig-section h2{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.8);  
+}
+
+.manage-gig-section .gig-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 60%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.gig-table th{
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0.9rem 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gig-form .fa-trash{
+    color: red;
+    position: absolute;
+    translate: 250% -190%;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.action-tdata{
+    text-align: center;
+}
+
+.gig-title{
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgba(0, 0, 0, 0.8);   
+}
+
+.fa-edit{
+    color: rgb(99, 99, 254);
+}
+
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+
+.gig-edit{
+    color: rgb(99, 99, 254);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-left: -3.5rem;
+    margin-top: 1rem;
+}
+
+.gig-table td{
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width:500px){
+    .remote-jobs-section{
+        padding: 1rem;
+    }
+
+    .post-a-job-wrapper{
+        width: 100%;  
+    }
+
+    .manage-gig-section{
+        padding: 0.5rem;
+    }
+
+    .manage-gig-section .gig-table{
+        width: 100% !important;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .job-main-container{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 2fr));
+        margin-top: 2rem;
+    }
+
+    .manage-gig-section{
+        padding: 0.5rem;
+    }
+
+    .manage-gig-section .gig-table{
+        width: 100% !important;
+    }
+
+    .gig-table th{
+        padding: 1.2rem 1.5rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .gig-table td{
+        /* text-align: center; */
+        padding: 0.8rem 1rem;
+    }
+
+    .gig-title{
+        font-size: 1rem;
+    }
+}
